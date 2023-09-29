@@ -1,0 +1,10 @@
+ /* Estilos CSS para las imágenes y sus nombres */
+ .image-container {
+	display: inline-block;
+	margin: 10px;
+	text-align: center;
+}
+
+.image-container img {
+	width: 200px; /* Tamaño deseado para las imágenes */
+}

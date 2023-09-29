@@ -1,0 +1,84 @@
+<!--Manuel Nieto Benítez-->
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="estilorepaso.css">
+        <meta name="author" content="Manuel Nieto">
+        <title>Web repaso</title>
+    </head>
+    <body>
+        <header>
+            <a href="repaso.html"><img src="imagenes/logo4.png" id="logo"></a>
+        </header>
+        <nav>
+            <ul>
+                <a href="repaso.html"> <li>Inicio</li></a>
+                <a href="repaso2.html"><li>Contacto</li></a>
+            </ul>
+        </nav>
+        <main>
+            <section id="formulario">
+                <h2 class="centrado">Regístrate y contáctanos</h2>
+                <form action="codigo.php" method="POST">
+                    <fieldset class="f2">
+                        <!-- Campo de nombre -->
+                        <label for="texto">Nombre:</label>
+                        <input type="text" id="texto" name="nombre">
+                        <!-- Campo de correo -->
+                        <label for="texto">Correo:</label>
+                        <input type="text" id="correo" name="correo">
+                        <!-- Campo de Select -->
+                        <label>Ciudad:
+                            <select name="selection">
+                                <option>Cáceres</option>
+                                <option>Mérida</option>
+                                <option>Badajoz</option>
+                            </select>
+                        </label>
+                        <br>
+                        <!-- Campo de Radio -->
+                        <label>Género:
+                            <br>
+                            <label><input type="radio" name="radio" value="1" checked>Masculino</label><!--Para elegir una sola opción, usar el mismo nombre-->
+                            <label><input type="radio" name="radio" value="2">Femenino</label>
+                        </label>
+                        <fieldset class="f2">
+                            <!-- Campo de Checkbox --> <!--Usar array para los valores-->
+                            <label>Etapa:
+                                <br>
+                                <input type="checkbox" name="checkbox[]" value="primaria">
+                                <label>Primaria</label>
+                                <br>
+                                <input type="checkbox" name="checkbox[]" value="eso">
+                                <label>Eso</label>
+                                <br>
+                                <input type="checkbox" name="checkbox[]" value="bach">
+                                <label>Bach</label>
+                                <br>
+                                <input type="checkbox"  name="checkbox[]" value="ciclo">
+                                <label>Ciclo</label>
+                            </label>
+                        </fieldset>
+                        <br>
+                        <!-- Área de texto -->
+                        <label for="comentarios">Comentarios:</label>
+                        <br>
+                        <textarea id="comentarios" name="comentarios" rows="4" cols="50"></textarea>
+                        <br>
+                        <!-- Campo de Checkbox único -->
+                        <label>¿Acepta los términos?</label>
+                        <input type="checkbox" id="checkboxUnico" name="checkboxUnico" value="si">
+                        <br>
+                        <!-- Botón de Enviar -->
+                        <input type="submit" value="Enviar">
+                    </fieldset>
+                </form>
+            </section>
+        </main>
+        <footer>
+            Derechos de autor © 2023 Manuel Nieto Benítez
+        </footer>
+    </body>
+</html>

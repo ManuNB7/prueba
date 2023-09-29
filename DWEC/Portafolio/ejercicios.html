@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang=es>
+  <head>
+    <meta charset=utf-8 />
+    <meta name=viewport content="initial-scale=1.0,minimum-scale=1.0,width=device-width"/>
+    <meta name=author content='Manuel Nieto'/>
+    <link rel=stylesheet type=text/css href="estilos.css"/>
+    <title>Portafolio DWEC</title>
+  </head>
+  <body background="imagenes/fondo.jpg">
+    <ul>
+      <li><a href=index.html>Portada</a></li>
+      <li><a href=proyectos.html>Proyectos</a></li>
+      <li><a href=ejercicios.html>Ejercicios</a></li>
+      <li><a href=referencias.html>Referencias</a></li>
+      <li><a href=patrones.html>Patrones de diseño</a></li>
+    </ul>
+    <p>
+      <h1 align="center">Ejericios iniciales</h1>
+      <div id="bloque1">
+        <div class="textos">
+          <h2>Andamio</h2>
+          <h3>Carga Inicial y Mensaje:</h3> El programa comienza con un mensaje en la consola que indica que el script se ha cargado correctamente.
+          <h3>Lista de Nombres de Archivos:</h3> Se crea un array llamado ficheros que contiene los nombres de tres archivos ('d1.txt', 'd2.txt', 'd3.txt'). Estos archivos probablemente contienen datos de entrada para resolver un problema.
+          <h3>Carga de Archivos de Datos:</h3> Se utiliza un bucle forEach para iterar a través de la lista de nombres de archivos (ficheros). Para cada nombre de archivo, se utiliza la función fetch para cargar el contenido del archivo. Luego, se encadenan dos funciones then:
+          La primera función then convierte la respuesta del archivo en formato de texto usando respuesta.text().
+          La segunda función then llama a funcion1, pasándole el texto cargado como argumento.
+          <h3>Función funcion1:</h3> Esta es una función simple que toma un argumento llamado entrada y muestra el contenido en la consola.<p>
+          En resumen, este programa se enfoca en cargar datos desde varios archivos y procesarlos utilizando el método fetch y funciones de procesamiento, en este caso, la función funcion1 simplemente muestra el contenido en la consola. El propósito real detrás de este código sería resolver problemas específicos relacionados con los datos cargados desde los archivos.
+        </div>
+      </div>
+      <div id="bloque1">
+        <h2>Ejericio bar</h2> 
+        <h3>Comentario de Análisis:</h3> El programa comienza con un comentario que describe los datos de entrada y salida esperados del programa. Los datos de entrada son un array de números, y los datos de salida son tres valores: diaMax (cadena de texto), diaMin (cadena de texto) y supera (booleano).
+        <h3>Función funcion1:</h3> Esta función toma el contenido del archivo, lo divide en líneas y lo procesa para analizar las ventas. Calcula la media de las ventas y verifica si la última venta supera la media. También busca el día con la venta mínima y máxima.
+        <h3>Cálculos y Resultados:</h3> Se realizan varios cálculos relacionados con las ventas, como encontrar el mínimo y el máximo, calcular la media y verificar si la última venta supera la media. Luego, se establecen los valores de diaMax, diaMin y superaTexto según los resultados de los cálculos.   
+        <h3>Impresión en Consola:</h3> Finalmente, se muestra en la consola los valores de diaMax, diaMin y superaTexto.  
+        <p>
+        En resumen, este programa carga datos de ventas desde archivos, realiza cálculos sobre esos datos y muestra resultados en la consola. Los resultados incluyen los días de venta máxima y mínima, así como una indicación de si la última venta supera la media.
+      </div>
+      <div id="bloque1">
+        <h2>Ejericio funciones inicial</h2>
+        Este programa es un conjunto de instrucciones escritas en JavaScript que nos muestran cómo funcionan las funciones en JavaScript:
+        <h3>Declaración y Uso de Funciones:</h3> El programa define una función llamada funcion1 que suma dos números y muestra el resultado en la pantalla. Luego, llama a esta función con diferentes tipos de datos para ver cómo se comporta.
+        <h3>Expresión de Función:</h3> Se muestra cómo podemos definir una función sin darle un nombre específico y asignarla a una variable llamada miFuncion. Esto es otra forma de crear funciones en JavaScript.
+        <h3>Callbacks:</h3> Aquí, definimos dos funciones, sumar y restar, que hacen matemáticas simples. Luego, hay una función llamada operar que toma una de estas funciones y dos números, y muestra el resultado en la pantalla. Esto muestra cómo se pueden usar funciones como si fueran datos.
+        <h3>Funciones Flecha:</h3> El programa introduce las funciones flecha, que son una forma más corta de escribir funciones en JavaScript. Se crean dos funciones flecha, fun3 y fun4, que hacen cosas simples.
+      </div>
+    </body>
+  </html>

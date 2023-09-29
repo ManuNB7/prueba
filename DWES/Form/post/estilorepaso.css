@@ -1,0 +1,200 @@
+/*Manuel Nieto Benítez*/
+
+/* Estilos generales */
+body {
+    background-color: #184D47;
+    font-family: Segoe UI;
+    width: 1280px;
+    margin: 0 auto;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+}
+
+.fondo1 {
+    background-image: url("imagenes/fondo1.jpg");
+}
+
+/* Cabecera y logo */
+header {
+    background-color: rgba(255, 255, 255, 0.5);
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
+
+/* Estilo para el footer */
+footer {
+    background-color: #333; /* Color de fondo del footer */
+    color: #fff;
+    text-align: center;
+    padding: 20px 0; /* Espaciado interior superior e inferior del footer */
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding-left: 555px;
+    background-color: #333;
+    overflow: hidden;
+    color: white;
+}
+
+nav li {
+    float: left;
+    margin-right: 20px;
+    font-size: large;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+}
+
+main {
+    padding: 20px;
+}
+
+section {
+    margin-bottom: 20px;
+}
+
+.bloque1{
+    border: 3px;
+    margin-left: 180px;
+    margin-right: 180px;
+    margin-bottom: 20px;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-bottom: 20px;
+    background-color: #F9F6F7;
+    border-radius: 20px;
+    overflow: hidden;
+    text-align: justify;
+}
+/******************************************************************************/
+
+
+/* IMAGENES*/
+
+#logo{
+    width: auto;
+    height: auto;
+}
+
+.imagenes{
+    display: block; /* Asegura que la imagen sea un elemento de bloque */
+    margin-left: auto; /* Margen izquierdo automático */
+    margin-right: auto; /* Margen derecho automático */
+}
+
+#fotocaja{
+    padding: 5px;
+    width:350px;
+    height: 275px;
+    float: right;
+}
+/******************************************************************************/
+
+
+ /* ESTILOS TABLA */
+table {
+    border-collapse: collapse;
+    width: 800px;
+    margin-top: 20px;
+}
+
+th, td {
+    border: 1px solid #dddddd;
+    text-align: left;
+    padding: 8px;
+    font-family: "Myanmar Text";
+    font-weight: bold;
+}
+
+th {
+    background-color: #184D47;
+    font-style: italic;
+    color: #f1faee;
+    font-family: "Trebuchet MS";
+}
+
+tr:nth-child(even) {
+    background-color: #96BB7C; /* Color de fondo para filas pares */
+}
+
+tr:nth-child(odd) {
+    background-color: #ffffff; /* Color de fondo para filas impares */
+}
+/******************************************************************************/
+
+
+/* OTROS ESTILOS*/
+#flecha{
+    width: 100px;
+    height: 100px;
+}
+
+.remarcar {
+    background-color: #D6EFC7; /* Color de fondo para remarcar */
+    font-weight: bold; /* Texto en negrita */
+    font-style: italic;
+}
+
+/* Estilo para el contenedor */
+.centrado{
+    text-align: center;
+}
+/******************************************************************************/
+
+
+/* Estilo para los divs de pros y contras */
+.pros, .contras {
+     /* Distribuye el espacio disponible por igual entre los divs */
+    padding: 10px;
+    border: 5px solid #ccc;
+    margin-top: 10px; /* Margen hacia arriba de 10px */
+    /* Margen hacia la izquierda de 200px */
+}
+
+/* Estilo para las listas */
+ul {
+    list-style: disc;
+    padding-left: 20px;
+    font-weight: normal;
+}
+
+ol {
+    font-style: italic;
+    font-weight: bold;
+}
+/******************************************************************************/
+
+
+/* FORMULARIO */
+#formulario{
+    background-color: rgba(255, 255, 255, 0.8);
+    border: 3px;
+    margin-left: 200px;
+    margin-right: 200px;
+    margin-bottom: 20px;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-bottom: 20px;
+    border-radius: 20px;
+    overflow: hidden;
+    text-align: justify;
+}
+.f2{
+    background-color: rgba(255, 255, 255, 0.8);
+    border: 3px;
+    border-radius: 20px;
+}
+
+/* Aplicar relleno a los elementos input */
+input {
+    padding: 5px; /* Puedes ajustar este valor según tus necesidades */
+    margin-bottom: 5px; /* Espacio entre elementos input */
+}
+/******************************************************************************/
