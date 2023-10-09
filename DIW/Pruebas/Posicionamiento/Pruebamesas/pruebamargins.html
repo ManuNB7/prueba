@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <title>Title</title>
+        <style>
+            body{
+                /*background-color: #333333;*/
+                margin-top: 100px;
+            }
+           /*Los márgenes superiores e inferiores se solapan, los laterales se suman*/
+            #cajap{
+                background-color: #96BB7C;
+                width: 500px;
+                height: 500px;
+                margin-top: 100px;
+                margin-left: 100px;
+                text-align: center;
+                border: 2px solid blue;
+            }
+            #caja2{
+                background-color: burlywood;
+                width: 50px;
+                height: 50px;
+                text-align: center;
+                /*Está usando posicionamiento static ya que su caja contenedora está en distintas capas
+                * la caja 2 no está viendo a la otra. La caja contenedora ha de ser absoluta o relativa.
+                */
+                position: absolute;
+                /*Margin: separa cajas y el top/left/bottom/right desplaza cajas*/
+                top: 15px;
+                left: 15px;
+            }
+        </style>
+    </head>
+    <body>
+        <div id="cajap">Holaprueba
+            <div id="caja2">Caja2</div>
+        </div>
+    </body>
+</html>
